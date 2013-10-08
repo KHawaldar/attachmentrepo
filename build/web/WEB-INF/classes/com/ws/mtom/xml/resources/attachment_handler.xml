@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handler-chains xmlns = "http://java.sun.com/xml/ns/javaee">
+   <!-- <handler-chain>
+        <handler>
+            <handler-name>responsechain</handler-name>
+            <handler-class>com.ws.handler.CreditCardHandler</handler-class>
+       </handler>-->
+       <handler-chain>
+         <handler>
+            <handler-name>attachmentchain</handler-name>
+            <handler-class>com.ws.mtom.handler.AttachmentHandler</handler-class>
+         
+       </handler>
+        
+    </handler-chain>
+    
+    
+    
+</handler-chains>
+
